@@ -1,0 +1,63 @@
+[0.000][INFO]:      ChromeDriver 26.0.1383.0 C:\Work_dir\driver\chromedriver.exe
+[0.954][FINE]:      Initializing session with capabilities {
+   "acceptSslCerts": true,
+   "browserName": "chrome",
+   "platform": "ANY",
+   "version": ""
+}
+
+[0.954][INFO]:      Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --enable-logging --log-level=1 --ignore-certificate-errors about:blank
+[2.395][INFO]:      Connected to Chrome successfully. Version: 25.0.1364.172
+[2.407][FINE]:      Command received (/session/0dbe73b4bbb4f9fa0b061aaeeedc61a5)
+[2.408][FINE]:      Command finished (/session/0dbe73b4bbb4f9fa0b061aaeeedc61a5) with response {
+   "sessionId": "0dbe73b4bbb4f9fa0b061aaeeedc61a5",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "26.0.1383.0",
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "25.0.1364.172",
+      "webStorageEnabled": true
+   }
+}
+
+[2.428][FINE]:      Command received (/session/0dbe73b4bbb4f9fa0b061aaeeedc61a5/cookie)
+[2.428][FINER]:     Waiting for all views to stop loading...
+[2.428][FINER]:     Done waiting for all views to stop loading
+[2.453][FINER]:     Waiting for all views to stop loading...
+[2.453][FINER]:     Done waiting for all views to stop loading
+[2.453][FINE]:      Command finished (/session/0dbe73b4bbb4f9fa0b061aaeeedc61a5/cookie) with response {
+   "sessionId": "0dbe73b4bbb4f9fa0b061aaeeedc61a5",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[2.456][FINE]:      Command received (/session/0dbe73b4bbb4f9fa0b061aaeeedc61a5/timeouts/implicit_wait) with params {
+   "ms": 30000
+}
+
+[2.456][FINER]:     Waiting for all views to stop loading...
+[2.456][FINER]:     Done waiting for all views to stop loading
+[2.456][FINER]:     Waiting for all views to stop loading...
+[2.456][FINER]:     Done waiting for all views to stop loading
+[2.456][FINE]:      Command finished (/session/0dbe73b4bbb4f9fa0b061aaeeedc61a5/timeouts/implicit_wait) with response {
+   "sessionId": "0dbe73b4bbb4f9fa0b061aaeeedc61a5",
+   "status": 0,
+   "value": {
+
+   }
+}
+
