@@ -1,16 +1,16 @@
 [0.000][INFO]:      ChromeDriver 26.0.1383.0 C:\Work_dir\driver\chromedriver.exe
-[0.954][FINE]:      Initializing session with capabilities {
+[1.031][FINE]:      Initializing session with capabilities {
    "acceptSslCerts": true,
    "browserName": "chrome",
    "platform": "ANY",
    "version": ""
 }
 
-[0.954][INFO]:      Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --enable-logging --log-level=1 --ignore-certificate-errors about:blank
-[2.395][INFO]:      Connected to Chrome successfully. Version: 25.0.1364.172
-[2.407][FINE]:      Command received (/session/0dbe73b4bbb4f9fa0b061aaeeedc61a5)
-[2.408][FINE]:      Command finished (/session/0dbe73b4bbb4f9fa0b061aaeeedc61a5) with response {
-   "sessionId": "0dbe73b4bbb4f9fa0b061aaeeedc61a5",
+[1.046][INFO]:      Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --enable-logging --log-level=1 --ignore-certificate-errors about:blank
+[1.720][INFO]:      Connected to Chrome successfully. Version: 25.0.1364.172
+[1.744][FINE]:      Command received (/session/2e7e42ccde70ddb14c94691fd2c07885)
+[1.744][FINE]:      Command finished (/session/2e7e42ccde70ddb14c94691fd2c07885) with response {
+   "sessionId": "2e7e42ccde70ddb14c94691fd2c07885",
    "status": 0,
    "value": {
       "acceptSslCerts": false,
@@ -32,32 +32,178 @@
    }
 }
 
-[2.428][FINE]:      Command received (/session/0dbe73b4bbb4f9fa0b061aaeeedc61a5/cookie)
-[2.428][FINER]:     Waiting for all views to stop loading...
-[2.428][FINER]:     Done waiting for all views to stop loading
-[2.453][FINER]:     Waiting for all views to stop loading...
-[2.453][FINER]:     Done waiting for all views to stop loading
-[2.453][FINE]:      Command finished (/session/0dbe73b4bbb4f9fa0b061aaeeedc61a5/cookie) with response {
-   "sessionId": "0dbe73b4bbb4f9fa0b061aaeeedc61a5",
+[1.766][FINE]:      Command received (/session/2e7e42ccde70ddb14c94691fd2c07885/cookie)
+[1.766][FINER]:     Waiting for all views to stop loading...
+[1.767][FINER]:     Done waiting for all views to stop loading
+[1.795][FINER]:     Waiting for all views to stop loading...
+[1.796][FINER]:     Done waiting for all views to stop loading
+[1.796][FINE]:      Command finished (/session/2e7e42ccde70ddb14c94691fd2c07885/cookie) with response {
+   "sessionId": "2e7e42ccde70ddb14c94691fd2c07885",
    "status": 0,
    "value": {
 
    }
 }
 
-[2.456][FINE]:      Command received (/session/0dbe73b4bbb4f9fa0b061aaeeedc61a5/timeouts/implicit_wait) with params {
+[1.799][FINE]:      Command received (/session/2e7e42ccde70ddb14c94691fd2c07885/timeouts/implicit_wait) with params {
    "ms": 30000
 }
 
-[2.456][FINER]:     Waiting for all views to stop loading...
-[2.456][FINER]:     Done waiting for all views to stop loading
-[2.456][FINER]:     Waiting for all views to stop loading...
-[2.456][FINER]:     Done waiting for all views to stop loading
-[2.456][FINE]:      Command finished (/session/0dbe73b4bbb4f9fa0b061aaeeedc61a5/timeouts/implicit_wait) with response {
-   "sessionId": "0dbe73b4bbb4f9fa0b061aaeeedc61a5",
+[1.799][FINER]:     Waiting for all views to stop loading...
+[1.803][FINER]:     Done waiting for all views to stop loading
+[1.803][FINER]:     Waiting for all views to stop loading...
+[1.803][FINER]:     Done waiting for all views to stop loading
+[1.803][FINE]:      Command finished (/session/2e7e42ccde70ddb14c94691fd2c07885/timeouts/implicit_wait) with response {
+   "sessionId": "2e7e42ccde70ddb14c94691fd2c07885",
    "status": 0,
    "value": {
 
    }
+}
+
+[1.807][FINE]:      Command received (/session/2e7e42ccde70ddb14c94691fd2c07885/url) with params {
+   "url": "http://www.google.com.hk//"
+}
+
+[1.807][FINER]:     Waiting for all views to stop loading...
+[1.808][FINER]:     Done waiting for all views to stop loading
+[3.538][FINER]:     Waiting for all views to stop loading...
+[3.538][FINER]:     Done waiting for all views to stop loading
+[3.538][FINE]:      Command finished (/session/2e7e42ccde70ddb14c94691fd2c07885/url) with response {
+   "sessionId": "2e7e42ccde70ddb14c94691fd2c07885",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[3.543][FINE]:      Command received (/session/2e7e42ccde70ddb14c94691fd2c07885/element) with params {
+   "using": "id",
+   "value": "lst-ib"
+}
+
+[3.543][FINER]:     Waiting for all views to stop loading...
+[3.543][FINER]:     Done waiting for all views to stop loading
+[3.583][FINER]:     Waiting for all views to stop loading...
+[3.583][FINER]:     Done waiting for all views to stop loading
+[3.583][FINE]:      Command finished (/session/2e7e42ccde70ddb14c94691fd2c07885/element) with response {
+   "sessionId": "2e7e42ccde70ddb14c94691fd2c07885",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364363519846"
+   }
+}
+
+[3.591][FINE]:      Command received (/session/2e7e42ccde70ddb14c94691fd2c07885/element/:wdc:1364363519846/clear) with params {
+   "id": ":wdc:1364363519846"
+}
+
+[3.591][FINER]:     Waiting for all views to stop loading...
+[3.591][FINER]:     Done waiting for all views to stop loading
+[3.634][FINER]:     Waiting for all views to stop loading...
+[3.634][FINER]:     Done waiting for all views to stop loading
+[3.634][FINE]:      Command finished (/session/2e7e42ccde70ddb14c94691fd2c07885/element/:wdc:1364363519846/clear) with response {
+   "sessionId": "2e7e42ccde70ddb14c94691fd2c07885",
+   "status": 0,
+   "value": null
+}
+
+[3.637][FINE]:      Command received (/session/2e7e42ccde70ddb14c94691fd2c07885/element) with params {
+   "using": "id",
+   "value": "lst-ib"
+}
+
+[3.637][FINER]:     Waiting for all views to stop loading...
+[3.637][FINER]:     Done waiting for all views to stop loading
+[3.646][FINER]:     Waiting for all views to stop loading...
+[3.646][FINER]:     Done waiting for all views to stop loading
+[3.646][FINE]:      Command finished (/session/2e7e42ccde70ddb14c94691fd2c07885/element) with response {
+   "sessionId": "2e7e42ccde70ddb14c94691fd2c07885",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364363519846"
+   }
+}
+
+[3.649][FINE]:      Command received (/session/2e7e42ccde70ddb14c94691fd2c07885/element/:wdc:1364363519846/value) with params {
+   "id": ":wdc:1364363519846",
+   "value": [ "thinkpad" ]
+}
+
+[3.649][FINER]:     Waiting for all views to stop loading...
+[3.649][FINER]:     Done waiting for all views to stop loading
+[3.783][FINER]:     Waiting for all views to stop loading...
+[3.783][FINER]:     Done waiting for all views to stop loading
+[3.783][FINE]:      Command finished (/session/2e7e42ccde70ddb14c94691fd2c07885/element/:wdc:1364363519846/value) with response {
+   "sessionId": "2e7e42ccde70ddb14c94691fd2c07885",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[16.135][FINE]:     Command received (/session/2e7e42ccde70ddb14c94691fd2c07885/element) with params {
+   "using": "id",
+   "value": "lst-ib"
+}
+
+[16.136][FINER]:    Waiting for all views to stop loading...
+[16.136][FINER]:    Done waiting for all views to stop loading
+[16.143][FINER]:    Waiting for all views to stop loading...
+[16.143][FINER]:    Done waiting for all views to stop loading
+[16.143][FINE]:     Command finished (/session/2e7e42ccde70ddb14c94691fd2c07885/element) with response {
+   "sessionId": "2e7e42ccde70ddb14c94691fd2c07885",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364363519846"
+   }
+}
+
+[16.159][FINE]:     Command received (/session/2e7e42ccde70ddb14c94691fd2c07885/element/:wdc:1364363519846/value) with params {
+   "id": ":wdc:1364363519846",
+   "value": [ "\uE004" ]
+}
+
+[16.159][FINER]:    Waiting for all views to stop loading...
+[16.159][FINER]:    Done waiting for all views to stop loading
+[16.174][FINER]:    Waiting for all views to stop loading...
+[16.174][FINER]:    Done waiting for all views to stop loading
+[16.174][FINE]:     Command finished (/session/2e7e42ccde70ddb14c94691fd2c07885/element/:wdc:1364363519846/value) with response {
+   "sessionId": "2e7e42ccde70ddb14c94691fd2c07885",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[27.877][FINE]:     Command received (/session/2e7e42ccde70ddb14c94691fd2c07885/element) with params {
+   "using": "id",
+   "value": "lst-ib"
+}
+
+[27.877][FINER]:    Waiting for all views to stop loading...
+[27.877][FINER]:    Done waiting for all views to stop loading
+[27.877][FINER]:    Waiting for all views to stop loading...
+[27.877][FINER]:    Done waiting for all views to stop loading
+[27.877][FINE]:     Command finished (/session/2e7e42ccde70ddb14c94691fd2c07885/element) with response {
+   "sessionId": "2e7e42ccde70ddb14c94691fd2c07885",
+   "status": 0,
+   "value": {
+      "ELEMENT": ":wdc:1364363519846"
+   }
+}
+
+[27.893][FINE]:     Command received (/session/2e7e42ccde70ddb14c94691fd2c07885/element/:wdc:1364363519846/submit) with params {
+   "id": ":wdc:1364363519846"
+}
+
+[27.893][FINER]:    Waiting for all views to stop loading...
+[27.893][FINER]:    Done waiting for all views to stop loading
+[27.924][FINER]:    Waiting for all views to stop loading...
+[27.924][FINER]:    Done waiting for all views to stop loading
+[27.924][FINE]:     Command finished (/session/2e7e42ccde70ddb14c94691fd2c07885/element/:wdc:1364363519846/submit) with response {
+   "sessionId": "2e7e42ccde70ddb14c94691fd2c07885",
+   "status": 0,
+   "value": null
 }
 
